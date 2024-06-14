@@ -1,0 +1,16 @@
+{
+    "name": "geo-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+"scripts": {
+  "build": "tailwindcss build ./css/tailwind.css -o ./css/style.css"
+},
+
+    "dependencies": {
+      "autoprefixer": "^10.4.7",
+      "postcss": "^8.4.14",
+      "tailwindcss": "^3.0.24"
+    }
+  }
+  

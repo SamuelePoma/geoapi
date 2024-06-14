@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cities in Region</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-200">
+    <div class="fixed top-0 left-0 w-full z-10 bg-blue-500 text-white flex justify-between items-center px-4 py-2">
+        <h2 class="text-lg font-bold">Samuele Poma's API</h2>
+        <div class="flex gap-2">
+            <a href="https://rapidapi.com/wirefreethought/api/geodb-cities" id="link1">
+                <img src="https://cdn-icons-png.freepik.com/256/1077/1077063.png?semt=ais_hybrid" alt="Icon 1" class="w-6 h-6">
+            </a>
+            <a href="https://hz.nl/en" id="link2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL5PcEIuCx7M2H6uJ9HWhshKPrP3RkjiJE4g&s" alt="Icon 2" class="w-6 h-6">
+            </a>
+        </div>
+    </div>
+    <div class="relative pt-16 flex flex-col items-center">
+        <h1 id="region-title" class="text-2xl font-bold mb-4"></h1>
+        <div class="w-10/12 px-4">
+            <div class="search-container bg-white shadow-md rounded-lg px-6 py-8">
+                <div id="city-results"></div>
+            </div>
+        </div>
+    </div>
+    <div class="fixed top-0 left-0 w-1/12 h-full bg-cover bg-no-repeat z-0" style="background-image: url('images/flags1.jpg');"></div>
+    <div class="fixed top-0 right-0 w-1/12 h-full bg-cover bg-no-repeat z-0" style="background-image: url('images/flags2.jpg');"></div>
+    <script src="js/cities.js"></script>
+</body>
+
+</html>
